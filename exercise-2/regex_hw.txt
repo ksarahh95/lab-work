@@ -6,7 +6,7 @@ As species of the same genus have usually, though by no means invariably, some s
 ANSWER:_______\bs\w+_________________________________________
 
 2.  Write a regular expression that will find the last word of every sentence. Your regular expression should capture the whole last word - not just the first or last letter! (Hint: note that not all sentences end with a period- one ends in an `!`)   
-ANSWER:________________________________________________
+ANSWER:_____________$___________________________________
 
 3.  Write a regular expression that will find the first word of every sentence. Your regular expression should match the whole first word- not just the first letter!    
 ANSWER:____________(?:^|(?:[.!]\s))(\w+)____________________________________
@@ -44,5 +44,5 @@ Now consider the following comma-delimited rows of data (this is a small number 
 ANSWER:_________.*NA$_______________________________________
 
 6.  Write a regular expression that will match all rows for where `plot_num` (column 1) is either 740, 741, or 742, and `replicate` (column 3) is either 1 or 4.  
-ANSWER:________________________________________________
+ANSWER:__________regrep?______________________________________
 	
